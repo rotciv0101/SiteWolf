@@ -1,0 +1,166 @@
+@media only screen and (max-width: 980px) {
+    #img_inicial{
+        background: url(/src/images/imagem-back-inicial.png);
+        width: 100%;
+        height: 300px;
+        margin-top: -55%;
+    }
+    
+    .apresentation h3{
+        padding: 2% 30% 0%;
+        text-align: center;
+        margin: auto;
+        font-size: 16;
+        margin-top: 45%;
+        color: white;
+    }
+
+    .apresentation p{
+        padding: 15px;
+        text-align: center;
+        margin: 0% 8%;
+        font-size: 12pt;
+        margin-top: 1%;
+        color: white;
+    }
+
+    /*Segunda imagem*/
+    article #img_internetConect{
+        display: flex;
+        margin: auto;
+        padding: 1rem 2rem .5rem;
+    }
+    
+    /* Final Segunda imagem */
+
+    /*Article*/
+    article #sobre{
+        color: #3A5FC8;
+        background-color: #D4DCF1;
+        font-size: 10pt;
+        text-align: center;
+        width: 40%;
+        border-radius: 20px;
+        margin: .1% 10% 5%;
+    }
+
+    article #sobre h5{
+        padding: .8em;
+        font-size: 10pt;
+    }
+
+    article h4{
+        font-size: 12pt;
+        color: #092038;
+        margin: .5% 10% 5%;
+    }
+
+    #destaque{
+        color: #4D5BB5;
+    }
+
+    article p{
+        color: #6B6363;
+        margin: .5% 10% 10%;
+    }
+    /*Final article*/
+
+    /*Section*/
+    #container_vantagem #vantagem{
+        color: #2FAF83;
+        background-color: #cefff0;
+        font-size: 10pt;
+        text-align: center;
+        width: 40%;
+        border-radius: 20px;
+        margin: .1% 10% 3%;
+    }
+    
+    #container_vantagem #vantagem h5{
+        padding: .8em;
+        font-size: 10pt;
+    }
+
+    #container_vantagem h4{
+        font-size: 12pt;
+        color: #092038;
+        margin: .1% 1% 5% 9%;
+    }
+
+    #seg_destaque{
+        color: #2FAF83;
+    }
+
+
+
+    /*Final Section*/
+    
+    /*formulario*/
+    #container_form{
+        background: #1C2A4F;
+        padding-top: .1px;
+        width: 100%;
+        height: 470px;
+
+    }
+
+    #form h3 { 
+        color: var(--primary-color);
+        font-size: 18pt;
+        font-style: bold;
+        margin: 3.5%;
+        margin-top: 30%;
+        text-align: center;
+    }
+
+    .destaques { 
+        color: var(--secondary-color);
+    }
+
+    #form p{
+        margin: .5rem 1.8rem;
+        font-size: 12pt;
+        text-align: center;
+        color: #6B6363;
+    }
+
+    #form{
+        background-color: rgb(255, 255, 255);
+        width: 72%;
+        height: 20rem;
+        margin: 15%;
+        border-radius: 20px;
+        box-shadow: 8px 33px 17px rgba(0, 0, 0, 0.25);
+    }
+    #form .button{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    #form input[type='text'],[type='number']{
+        padding: 1px;
+        margin: 2% 7%;
+        border: thin solid ;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-color: #C4C4C4;
+        font-size: 10pt;
+        width: 85%;
+    }
+
+    #form input[type='submit']{ 
+        position: relative;
+        background-color: #335EE9;
+        color: white;
+        border: none;
+        bottom: 0;
+        padding-bottom: 0;
+        width: 100%;
+        height: 40px;
+        border-radius: 0px 0px 20px 20px;
+    }
+    /*final formulario*/
+
+}

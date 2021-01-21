@@ -1,0 +1,208 @@
+@media only screen and (max-width: 980px) {
+
+    .apresentation img{
+        width: 100%;
+        height: 300px;
+        /* margin-top: 30%; */
+        z-index: -1;
+    }
+
+    .apresentation {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .apresentation h3{
+        padding: 2% 30% 0%;
+        font-size: 16;
+        color: white;
+        z-index: 2;
+    }
+
+    .apresentation h3, .apresentation p {
+        position: absolute;
+        text-align: center;
+    }
+    
+    .apresentation p{
+        /* padding: 15px; */
+        margin: 0% 8%;
+        font-size: 12pt;
+        margin-top: 35%;
+        color: white;
+        z-index: 2;
+    }
+
+    /*Segunda imagem*/
+    article #img_internetConect { 
+        margin: 10%;
+    }
+    article #sobre{
+        color: #3A5FC8;
+        background-color: #D4DCF1;
+        font-size: 10pt;
+        text-align: center;
+        width: 40%;
+        border-radius: 20px;
+        margin: .1% 10% 5%;
+    }
+
+    article #sobre h5{
+        padding: .8em;
+        font-size: 10pt;
+    }
+
+    article h4{
+        font-size: 12pt;
+        color: #092038;
+        margin: .5% 10% 5%;
+    }
+
+    #destaque{
+        color: #4D5BB5;
+    }
+
+    article p{
+        color: #6B6363;
+        margin: .5% 10% 10%;
+    }
+    /*Final article*/
+
+    /*Section*/
+    #container_vantagem #vantagens{
+        color: #2FAF83;
+        background-color: #cefff0;
+        font-size: 10pt;
+        text-align: center;
+        width: 40%;
+        border-radius: 20px;
+        margin: .1% 10% 3%;
+    }
+    
+    #container_vantagem #vantagens h5{
+        padding: .8em;
+        font-size: 10pt;
+    }
+
+    #container_vantagem h4{
+        font-size: 12pt;
+        color: #092038;
+        margin: .1% 1% 5% 9%;
+    }
+    #quadro_vantagens{
+        background-color: white;
+        width: 90%;
+        padding: 1%;
+        margin: auto;
+        margin-bottom: 5%;
+        border-radius: 20px;
+    }
+
+    #quadro_vantagens h5{
+        margin: 5%;
+    }
+
+    #quadro_vantagens p{
+        margin: 5%;
+    }
+
+    #quadro_vantagens hr{
+        width: 50%;
+    }
+    
+    /*box images*/
+    #box_images{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #box_images img{
+        margin: auto;
+        margin-bottom: 5%;
+    }
+
+    #seg_destaque{
+        color: #2FAF83;
+    }
+
+    .box_advantages {
+
+        margin: auto;
+        margin-top: 0;
+        display: inline-block;
+
+    }
+
+    
+
+    /*Final Section*/
+    /*formulario*/
+    #container_form{
+        background: #1C2A4F;
+        padding-top: .1px;
+        width: 100%;
+        height: 500px;
+    }
+
+    #form h3 { 
+        color: var(--primary-color);
+        font-size: 18pt;
+        font-style: bold;
+        margin: 3.5%;
+        margin-top: 30%;
+        text-align: center;
+    }
+
+    .destaques { 
+        color: var(--secondary-color);
+    }
+
+    #form p{
+        margin: .5rem 1.8rem;
+        font-size: 12pt;
+        text-align: center;
+        color: #6B6363;
+    }
+
+    #form{
+        background-color: rgb(255, 255, 255);
+        width: 72%;
+        height: 20rem;
+        margin: 15%;
+        border-radius: 20px;
+        box-shadow: 8px 33px 17px rgba(0, 0, 0, 0.25);
+    }
+    #form .button{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    #form input[type='text'],[type='number']{
+        padding: 1px;
+        margin: 2% 7%;
+        border: thin solid ;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-color: #C4C4C4;
+        font-size: 10pt;
+        width: 85%;
+    }
+
+    #form input[type='submit']{ 
+        position: relative;
+        background-color: #335EE9;
+        color: white;
+        border: none;
+        bottom: 0;
+        padding-bottom: 0;
+        width: 100%;
+        height: 40px;
+        border-radius: 0px 0px 20px 20px;
+    }
+    /*final formulario*/
+
+}
