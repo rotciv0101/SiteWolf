@@ -3,10 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="/src/styles/web_site.css">
-        <link rel="stylesheet" type="text/css" href="/src/styles/menu.css">
-        <link rel="stylesheet" type="text/css" href="/src/styles/footer_black.css">
-        <link rel="stylesheet" type="text/css" href="/src/styles/global.css">
+        <link rel="stylesheet" type="text/css" href="../styles/web_site.css">
+        <link rel="stylesheet" type="text/css" href="../styles/menu.css">
+        <link rel="stylesheet" type="text/css" href="../styles/footer.css">
+        <link rel="stylesheet" type="text/css" href="../styles/global.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <script
     src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -18,34 +18,41 @@
     <body>
         <header class="cabecalho">
             <div class="navbar">
-                <a href="/src/html/Index.html"> <img src="/src/images/logo_head.svg" alt="logo"> </a>     
+                <a href="../html/Index.html"> <img src="../images/logo_cores_invertidas.png" alt="logo"> </a>     
                 <div class="hamburger active">
                     
                 </div>
             
                 <ul class="menu active">
-                    <li> <a href="Entrar_na_conta.html"><span>Entrar</span></a> </li>
-                    <li> <a href="Fazer_loguin.html"><span>Inscreva-se</span></a> </li>
-                    <li> <a href="Servicos.html">Serviços</a> </li>
-                    <li> <a href="Loja.html">Loja</a> </li>
-                    <li> <a href="Entre_em_contato.html">Fale conosco</a> </li>
+                    <li> <a href="#"><span>Entrar</span></a> </li>
+                    <li> <a href="../html/criar_conta.html"><span>Inscreva-se</span></a> </li>
+                    <li> <a href="#">Serviços</a>
+                    <ul>
+                        <li><a href="../html/Servicos_WebSite.html">Web Sites</a></li>
+                        <li><a href="../html/Servicos_SistemaWeb.html">Sistema Web</a></li>
+                        <li><a href="../html/Servicos_Aplicativo.html">Aplicações Mobile</a></li>
+                        <li><a href="../html/Servicos_Upgrade.html">Upgrade/Redesign</a></li>
+                    </ul>
+                </li>
+                    <li> <a href="../html/Loja.html">Loja</a> </li>
+                    <li> <a href="../html/contate-nos.html">Fale conosco</a> </li>
                 </ul>
             </div>
         </header>
 
         <section>
             <div class="apresentation">
-                <h3>Web Site</h3>
-                <p> Nós projetamos e construimos sites dinâmicos, blogs, lojas virtuais e muito mais para empresas que tentam fazer grandes coisas pelo planeta. </p>
-            </div>
+                <img src="../images/imagem-back-inicial.png" alt="plano de fundo sistema">
+                
+            <h3>Web site</h3>
+            <p> Nós projetamos e construimos sites dinâmicos, blogs, lojas virtuais e muito mais para empresas que tentam fazer grandes coisas pelo planeta.</p>
+        </div>
         </section>
 
-        <div id="img_inicial">
-            
-        </div>
+       
 
         <article>
-            <img src="/src/images/undraw_connected_world_wuay.svg" alt="resentativa_da_internet" id="img_internetConect">
+            <img src="../images/undraw_connected_world_wuay.svg" alt="resentativa_da_internet" id="img_internetConect">
             
             <div id="importancia">
                 <h5>INPORTÂNCIA</h5>
@@ -58,9 +65,9 @@
             <div id="container_vantagem">
 
                 <div id="img_vantagem">
-                    <img src="/src/images/imagem_representativa1.png" alt="">
-                    <img src="/src/images/imagem_representativa2.png" alt="">
-                    <img src="/src/images/imagem_representativa3.png" alt="">
+                    <img src="../images/imagem_representativa1.png" alt="">
+                    <img src="../images/imagem_representativa2.png" alt="">
+                    <img src="../images/imagem_representativa3.png" alt="">
                     <!-- <img src="/src/images/imagem_representativa4.png" alt=""> -->
 
                 </div>
@@ -93,39 +100,48 @@
             </div>
         </div>
         
-        <!-- Footer -->
-        <hr>
-        <footer>
-            <div id="info_up">
-                <div id="redes_sociais">
-                    <h4><img src="/src/images/WolfStack_rodape_clara.svg" alt="WolfStack ilustração"></h4>
-                    <img src="/src/images/instagram_icon_white.svg" alt="ícone-instagram" class="icon_sociais">
-                    <img src="/src/images/whatsapp_icon_white.svg" alt="ícone-whatsapp" class="icon_sociais">
-                    <img src="/src/images/facebook_icon_white.svg" alt="ícone-facebook" class="icon_sociais">
-                </div>
-                
-                <div id="empresa">
-                    <h5>Empresa</h5>
-                    <a href="#">&#9656; Termos e condições</a> 
-                    <br>
-                    <a href="#">&#9656; Política de privacidade</a>
-                </div>
-               
-                <div id="novidades">
-                    <h5>Novidades</h5>
-                    <a href="#">&#9656; Mercando 1.0</a>
-                </div>
-            </div>
+       <!-- Footer -->
 
-            <div id="mais_info">
-                <a href="#">&#9656; Entre em contato</a> 
-                <a href="#">&#9656; Gerenciar cookies</a>
-                <p>	&#169; WolfStack 2020</p>
-            </div>
-            
-        </footer> 
+       <div id="container_pre_footer">
+           <img src="../images/WolfStack_rodape_clara.svg" alt="WolfStack ilustração" id="logo_footer">
+           
+           <hr>
+       
+           <div id="pre_footer_img">
+               <img src="../images/instagram_icon_white.svg" alt="ícone-instagram" class="icon_sociais">
+               <img src="../images/whatsapp_icon_white.svg" alt="ícone-whatsapp" class="icon_sociais">
+               <img src="../images/facebook_icon_white.svg" alt="ícone-facebook" class="icon_sociais">
+           </div>
+               
+               
+               <hr>
+           <div class="pre_footer_conteudo">
+               
+               <div id="empresa">
+                   <h5>Empresa</h5>
+                   <a href="#">&#9656; Termos e condições</a> 
+                   <br>
+                   <a href="#">&#9656; Política de privacidade</a>
+           
+               </div>
+
+               <div id="novidade">
+                   <h5>Novidades</h5>
+                   <a href="#">&#9656; Mercando 1.0</a>
+               </div>
+               
+           </div>
+       </div>
+
+       <footer>
+
+               <a href="#">&#9656; Entre em contato</a> 
+               <a href="#">&#9656; Gerenciar cookies</a>
+               <p>	&#169; WolfStack 2020</p>
+           
+       </foote> 
         <!--finish Footer-->
-        <script src="/src/javascript/menu.js"></script>
+        <script src="../javascript/menu_services.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     </body>
 </html>

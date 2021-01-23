@@ -1,0 +1,82 @@
+@media only screen and (max-width: 980px) {
+    form{
+        color: white;
+    }    
+
+    #form_criar_conta{
+        
+        margin: auto;
+        background-color: #6C63FF;
+        text-align: center;
+        align-items: center;
+
+        border-radius: 20px;
+        width: 90%;
+        color: white;
+        font-family: 'Poppins';
+        font-weight: normal;
+        margin: 5% auto 10%;
+        text-align: center;
+        align-items: center;
+        color: black;
+        padding: 8%;
+
+        
+    }
+    #form_criar_conta h2 { 
+        font-family: 'Poppins';
+        font-weight: bold;
+        color: white;
+        font-size: 20pt;
+    }
+    #form_criar_conta span { 
+        color: #88F0CC;
+    }
+    #form_criar_conta img { 
+        max-width: 100px;
+        width: auto;
+        height: auto;
+        margin-bottom: 10%;
+    }
+
+    label, input[type="text"],[type="email"],[type="password"],[type="date"]{
+        width: 90%;
+        display: block;
+        margin: auto;
+        border-radius: 5px;
+        padding: 2.5%;
+        border: none;
+        border-radius: 10px;
+
+    }
+
+    input[type="checkbox"] :hover{
+        color: red;
+    }
+
+    label{
+        margin-top: 4%;
+        font-size: 16pt;
+        /* font-weight: bold; */
+    }
+
+    input[type="checkbox"]{
+        display: inline-block;
+        margin-top: 4%;
+    }
+
+    input[type="submit"]{
+      width: 90%;
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+      background-color: #2faf82;
+      color: white;
+      font-size: 15pt;
+    }
+    
+    #genero{
+        text-align: left;
+    }
+       
+}
